@@ -25,7 +25,7 @@ export const addBookImport = (data) => {
 
         return async (dispatch, getState) => {
             const res = await create(data);
-            toast.success("Thêm mới thành công")
+            toast.success("Thêm mới thành công!!")
 
             dispatch({
                 type: CREATE_BOOKIMPORT,
